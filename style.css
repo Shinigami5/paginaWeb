@@ -45,8 +45,12 @@
 		width: auto !important;
 		text-align: center !important;
 	}
+	#updates ul li {
+		padding: 7px 0 !important;
+	}
+	#updates ul.navigation li a {font-size: 20px !important} 
 
-	#contents div.view img {
+	#contents div.foto img {
 		width: 100% !important;
 		height: 100% !important;
 	}
@@ -126,6 +130,12 @@
 	}
 }
 
+@media only screen and (max-width: 400px){
+	#logo{
+		margin: 10px 30% 10px 30% !important;
+	}
+}
+
 
 
 
@@ -176,7 +186,7 @@ img {
 	margin-right: 30px;
 }
 #connect a {
-	background: url(./images/icons2.png) no-repeat;
+	background: url(../images/icons2.png) no-repeat;
 	display: inline-block;
 	height: 66px;
 	width: 41px;
@@ -295,7 +305,7 @@ span.author {
 }
 
 #favorites {
-	background: url(../images/bg-gallery.jpg) no-repeat;
+	background: url(./images/bg-gallery.jpg) no-repeat;
 	height: 730px;
 	width: 202px;
 	position: absolute;
@@ -693,7 +703,15 @@ li {
 }
 
 .pra {
-	margin: 15% 15%;
+	margin: 25px 15% 10px 15%;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+	font-family: harlow solid;
+}
+
+#abacate {
+	text-transform: lowercase;
 }
 
 /* 151  3  3  | 31 29 29 */
